@@ -1,13 +1,15 @@
 import saludar from "./saludador.js";
 
 describe("Saludador", () => {
-  it("deberia saludar con buenos dias en la manana ", () => {
-    expect(saludar("Berni", 8)).toEqual("Buenos días Berni");
+  it("deberia saludar a un hombre con bienvenido", () => {
+    expect(saludar("Berni", 9, "M")).toEqual("Buenos días Berni, bienvenido");
   });
-  it("deberia saludar con buenas tardes en la tarde ", () => {
-    expect(saludar("Berni", 15)).toEqual("Buenas tardes Berni");
+
+  it("deberia saludar a una mujer con bienvenida", () => {
+    expect(saludar("Ana", 15, "F")).toEqual("Buenas tardes Ana, bienvenida");
   });
-  it("deberia saludar con buenas noches en la noche ", () => {
-    expect(saludar("Berni", 22)).toEqual("Buenas noches Berni");
+
+  it("deberia saludar buenas noches en la noche", () => {
+    expect(saludar("Berni", 22, "M")).toEqual("Buenas noches Berni, bienvenido");
   });
 });

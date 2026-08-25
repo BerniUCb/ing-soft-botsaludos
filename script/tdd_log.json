@@ -52,9 +52,39 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "be590fe5c33497058cf44a7e6ff7a22b597ce7dc",
     "commitName": "feat: saludar segun la hora del dia",
     "commitTimestamp": 1787630284677,
     "testId": 2
+  },
+  {
+    "numPassedTests": 0,
+    "failedTests": 3,
+    "numTotalTests": 3,
+    "timestamp": 1787630664773,
+    "success": false,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 0,
+    "failedTests": 3,
+    "numTotalTests": 3,
+    "timestamp": 1787630735624,
+    "success": false,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1787630785209,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: saludar por genero",
+    "commitTimestamp": 1787630829341,
+    "testId": 3
   }
 ]
