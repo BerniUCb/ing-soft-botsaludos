@@ -1,16 +1,35 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "2fcb0d1641ef620ebb7fd7f0a5ab7d935fca8c7b",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-08-25T03:40:14.000Z",
       "message": "feat: saludar con hola",
-      "url": "https://github.com/BerniUCb/ing-soft-botsaludos/commit/HEAD"
+      "url": "https://github.com/BerniUCb/ing-soft-botsaludos/commit/2fcb0d1641ef620ebb7fd7f0a5ab7d935fca8c7b"
     },
     "stats": {
       "total": 79,
       "additions": 41,
       "deletions": 38,
+      "date": "2026-08-25"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-08-25T03:48:48.000Z",
+      "message": "feat: saludar por nombre",
+      "url": "https://github.com/BerniUCb/ing-soft-botsaludos/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 8,
+      "deletions": 5,
       "date": "2026-08-25"
     },
     "coverage": 100,

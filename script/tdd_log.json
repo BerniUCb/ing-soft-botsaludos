@@ -8,9 +8,31 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2fcb0d1641ef620ebb7fd7f0a5ab7d935fca8c7b",
     "commitName": "feat: saludar con hola",
     "commitTimestamp": 1787629215334,
     "testId": 0
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 0,
+    "numTotalTests": 1,
+    "timestamp": 1787629563792,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 0,
+    "numTotalTests": 1,
+    "timestamp": 1787629622308,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: saludar por nombre",
+    "commitTimestamp": 1787629728823,
+    "testId": 1
   }
 ]
