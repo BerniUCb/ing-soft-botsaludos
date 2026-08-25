@@ -154,9 +154,31 @@
     "testId": 7
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b1c1729f83af0eefe1eff5f66ba357ad7284d91f",
     "commitName": "feat: saludo como visitante",
     "commitTimestamp": 1787664213342,
     "testId": 7
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1787665350937,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1787665357238,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar error cuando la edad es invalida",
+    "commitTimestamp": 1787665362220,
+    "testId": 8
   }
 ]

@@ -23,4 +23,11 @@ describe("Saludador", () => {
   it("deberia saludar a visitante si no se pone nombre", () => {
   expect(saludar("", 9, "M", 20, "es")).toEqual("Buenos días visitante, bienvenido");
   });
+  it("deberia mostrar error si la edad no es un numero", () => {
+  expect(saludar("Berni", 9, "M", NaN, "es")).toEqual("Error: la edad ingresada no es válida");
+  });
+
+  it("deberia mostrar error si la edad es negativa", () => {
+  expect(saludar("Berni", 9, "M", -5, "es")).toEqual("Error: la edad ingresada no es válida");
+  });
 });

@@ -133,12 +133,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b1c1729f83af0eefe1eff5f66ba357ad7284d91f",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-08-25T13:23:32.000Z",
       "message": "feat: saludo como visitante",
-      "url": "https://github.com/BerniUCb/ing-soft-botsaludos/commit/HEAD"
+      "url": "https://github.com/BerniUCb/ing-soft-botsaludos/commit/b1c1729f83af0eefe1eff5f66ba357ad7284d91f"
     },
     "stats": {
       "total": 7,
@@ -148,6 +148,25 @@
     },
     "coverage": 96.43,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-08-25T13:42:41.000Z",
+      "message": "feat: mostrar error cuando la edad es invalida",
+      "url": "https://github.com/BerniUCb/ing-soft-botsaludos/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2026-08-25"
+    },
+    "coverage": 96.67,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }

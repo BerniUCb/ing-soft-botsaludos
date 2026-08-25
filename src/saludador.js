@@ -3,6 +3,9 @@ function saludar(nombre, hora, genero, edad, idioma) {
     nombre = "visitante";
 
   }
+    if (isNaN(edad) || edad < 0) {
+    return "Error: la edad ingresada no es válida";
+  }
   let saludo;
   let bienvenida;
   let tratamiento = "";
