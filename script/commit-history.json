@@ -95,12 +95,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "44a7cf07cb587114781a2df1974e541588b70560",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-08-25T04:18:13.000Z",
       "message": "feat: saludar en espanol",
-      "url": "https://github.com/BerniUCb/ing-soft-botsaludos/commit/HEAD"
+      "url": "https://github.com/BerniUCb/ing-soft-botsaludos/commit/44a7cf07cb587114781a2df1974e541588b70560"
     },
     "stats": {
       "total": 31,
@@ -110,6 +110,25 @@
     },
     "coverage": 93.33,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-08-25T04:20:52.000Z",
+      "message": "feat: saludo en ingles",
+      "url": "https://github.com/BerniUCb/ing-soft-botsaludos/commit/HEAD"
+    },
+    "stats": {
+      "total": 75,
+      "additions": 50,
+      "deletions": 25,
+      "date": "2026-08-25"
+    },
+    "coverage": 96.15,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }
