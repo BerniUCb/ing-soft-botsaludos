@@ -1,4 +1,8 @@
 function saludar(nombre, hora, genero, edad, idioma) {
+  if(nombre === ""){
+    nombre = "visitante";
+
+  }
   let saludo;
   let bienvenida;
   let tratamiento = "";

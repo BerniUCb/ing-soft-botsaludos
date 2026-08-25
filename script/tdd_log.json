@@ -132,9 +132,31 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "19cc6d1d3aa87edc3772b3761a1eb24a1fdebc20",
     "commitName": "feat: saludo en ingles",
     "commitTimestamp": 1787631653099,
     "testId": 6
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1787664080206,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1787664150676,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: saludo como visitante",
+    "commitTimestamp": 1787664213342,
+    "testId": 7
   }
 ]

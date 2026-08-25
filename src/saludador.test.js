@@ -20,4 +20,7 @@ describe("Saludador", () => {
   it("deberia saludar en ingles con Mrs a una mujer mayor de 30", () => {
     expect(saludar("Mary", 22, "F", 60, "en")).toEqual("Good evening Mrs. Mary, welcome");
   });
+  it("deberia saludar a visitante si no se pone nombre", () => {
+  expect(saludar("", 9, "M", 20, "es")).toEqual("Buenos días visitante, bienvenido");
+  });
 });
