@@ -1,6 +1,9 @@
-function saludar(nombre, hora, genero, edad) {
+function saludar(nombre, hora, genero, edad,idioma) {
   let saludo;
+  let bienvenida;
+  let tratamiento = "";
 
+if (idioma === "es") {
   if (hora >= 6 && hora < 12) {
     saludo = "Buenos días";
   } else if (hora >= 12 && hora < 19) {
@@ -9,14 +12,14 @@ function saludar(nombre, hora, genero, edad) {
     saludo = "Buenas noches";
   }
 
-  let bienvenida;
+
   if (genero === "M") {
     bienvenida = "bienvenido";
   } else {
     bienvenida = "bienvenida";
   }
 
-  let tratamiento = "";
+
   if (edad > 30) {
     if (genero === "M") {
       tratamiento = "Sr. ";
@@ -24,8 +27,9 @@ function saludar(nombre, hora, genero, edad) {
       tratamiento = "Sra. ";
     }
   }
+}
 
   return saludo + " " + tratamiento + nombre + ", " + bienvenida;
 }
 
-export default saludar;
+export default saludar;     

@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "61f8d076ffb3fc9018f4355a2f8032d8fc19fec7",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-08-25T04:11:08.000Z",
       "message": "feat: saludar por edad con tratamiento",
-      "url": "https://github.com/BerniUCb/ing-soft-botsaludos/commit/HEAD"
+      "url": "https://github.com/BerniUCb/ing-soft-botsaludos/commit/61f8d076ffb3fc9018f4355a2f8032d8fc19fec7"
     },
     "stats": {
       "total": 39,
@@ -90,6 +90,25 @@
       "date": "2026-08-25"
     },
     "coverage": 92.86,
+    "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-08-25T04:18:13.000Z",
+      "message": "feat: saludar en espanol",
+      "url": "https://github.com/BerniUCb/ing-soft-botsaludos/commit/HEAD"
+    },
+    "stats": {
+      "total": 31,
+      "additions": 20,
+      "deletions": 11,
+      "date": "2026-08-25"
+    },
+    "coverage": 93.33,
     "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
