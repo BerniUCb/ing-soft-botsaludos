@@ -5,5 +5,8 @@ const div = document.querySelector("#resultado-div");
 const nombre = document.querySelector("#nombre");
 
 saludarButton.addEventListener("click", () => {
-  div.innerHTML = "<p>" + saludar(nombre.value) + "</p>";
+  const fechaActual = new Date();
+  const horaActual = fechaActual.getHours();
+
+  div.innerHTML = "<p>" + saludar(nombre.value, horaActual) + "</p>";
 });
