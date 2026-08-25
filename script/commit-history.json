@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-08-25T03:40:14.000Z",
+      "message": "feat: saludar con hola",
+      "url": "https://github.com/BerniUCb/ing-soft-botsaludos/commit/HEAD"
+    },
+    "stats": {
+      "total": 79,
+      "additions": 41,
+      "deletions": 38,
+      "date": "2026-08-25"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
